@@ -10,3 +10,62 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background: whitesmoke;
+}
+
+.body {
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 800px;
+    border:solid 1px black;
+    padding: 25px;
+    padding-top: 35px;
+    
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.notasks {
+    margin-top: 10px;
+}
+
+.counter {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px whitesmoke solid;
+    border-bottom: 1px whitesmoke solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+.delete {
+    margin-left: auto;
+    opacity: 0;
+    color:black;
+  }
+
+  .task:hover .delete {
+    opacity: 1;
+  }
+
+  .delete:hover {
+    color:red
+  }
+
+  .green {
+    color: green;
+  }
+
+  .red {
+    color:red;
+  }
